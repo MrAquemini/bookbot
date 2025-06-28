@@ -10,6 +10,7 @@ def main():
     from stats import get_word_count, get_character_count
     text = get_book_text(file_path)
     get_word_count(text)
-    get_character_count(text)
+    character_count = get_character_count(text)
+    print(character_count)
 main()
 
