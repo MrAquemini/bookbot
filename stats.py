@@ -14,17 +14,6 @@ def get_character_count(text):
 
     return letter_count    
 
-def sort_on(dict):
-    return dict["num"]
-    
-def sort_dict(character_count):
-    dict_list = []
-    for k in character_count:
-        k_dict = {"char":k, "num":character_count[k]}
-        dict_list.append(k_dict)
-    dict_list.sort(reverse=True, key=sort_on)
-    return dict_list
-
-   
+def sort_on()
 
    
